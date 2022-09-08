@@ -12,6 +12,8 @@ def get_output(str1, str2):
 
 # Remove characters from str1 if str2 contains them and vice versa 
 def removing_characters(str1, str2):
+    str1 = str1.lower()
+    str2 = str2.lower()
     out1 = get_output(str1, str2)
     out2 = get_output(str2, str1)
 
